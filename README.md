@@ -188,7 +188,7 @@ For questions, suggestions, or feedback, please contact us at:
 
 - **Name**: M Sivananthan
 - **Email**: sivananthan46m.com
-- **LinkedIn**: [Your LinkedIn Profile](www.linkedin.com/in/sivananthanm)
+- **LinkedIn**: [linkdin/sivananathanm](www.linkedin.com/in/sivananthanm)
 
 
 ## Acknowledgments
