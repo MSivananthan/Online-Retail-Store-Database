@@ -73,6 +73,7 @@ The database schema consists of the following primary tables:
    - `description`
    - `created_at`
    - `updated_at`
+   <img src="![alt text](<Screenshot (181).png>)">
 
 3. **Orders**
    - `order_id` (Primary Key)
@@ -81,19 +82,21 @@ The database schema consists of the following primary tables:
    - `status`
    - `total_amount`
 
+   <img src="Screenshot (182).png">
 4. **OrderItems**
    - `order_item_id` (Primary Key)
    - `order_id` (Foreign Key)
    - `product_id` (Foreign Key)
    - `quantity`
    - `price`
-
+   <img src="![alt text](<Screenshot (183).png>)">
 5. **Payments**
    - `payment_id` (Primary Key)
    - `order_id` (Foreign Key)
    - `payment_date`
    - `amount`
    - `payment_method`
+   <img src="![alt text](<Screenshot (184).png>)">
 
 ## Installation
 
@@ -148,18 +151,21 @@ Here are some sample SQL queries included in the project:
   ```sql
   INSERT INTO Orders (customer_id, order_date, status, total_amount) VALUES (?, ?, ?, ?);
   ```
+ <img src="Screenshot (185).png">
 
 - **Process a payment**:
   ```sql
   INSERT INTO Payments (order_id, payment_date, amount, payment_method) VALUES (?, ?, ?, ?);
   ```
-
+ <img src="Screenshot (186).png">
+ 
 - **Retrieve customer order history**:
   ```sql
   SELECT Orders.order_id, Orders.order_date, Orders.total_amount
   FROM Orders
   WHERE Orders.customer_id = ?;
   ```
+  <img src="Screenshot (187).png">
 
 - **Calculate total sales by product**:
   ```sql
@@ -168,6 +174,11 @@ Here are some sample SQL queries included in the project:
   JOIN Products ON OrderItems.product_id = Products.product_id
   GROUP BY Products.name;
   ```
+  <img src="Screenshot (188).png">
+  <img src="Screenshot (189).png">
+  <img src="Screenshot (190).png">
+  <img src="Screenshot (191).png">
+ 
 
 ## Contributing
 
