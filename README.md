@@ -13,7 +13,7 @@ Mentor : Muzammil Ahmed
 
 ---
 
-<h1>Online Retail Store Database<\h1>
+<h1>Online Retail Store Database <\h1>
 
 This repository contains the database design and SQL queries for an online retail store, focusing on managing products, customers, orders, and payments. The project includes complex queries and a robust database design to support comprehensive retail operations.
 
