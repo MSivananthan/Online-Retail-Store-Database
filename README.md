@@ -62,6 +62,7 @@ The database schema consists of the following primary tables:
    - `address`
    - `created_at`
    - `updated_at`
+   <img src="![alt text](<Screenshot (180).png>)">
 
 2. **Products**
    - `product_id` (Primary Key)
