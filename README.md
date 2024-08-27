@@ -62,7 +62,7 @@ The database schema consists of the following primary tables:
    - `address`
    - `created_at`
    - `updated_at`
-   <img src="![alt text](<Screenshot (180).png>)">
+   <img src="Screenshot (180).png">
 
 2. **Products**
    - `product_id` (Primary Key)
@@ -73,7 +73,7 @@ The database schema consists of the following primary tables:
    - `description`
    - `created_at`
    - `updated_at`
-   <img src="![alt text](<Screenshot (181).png>)">
+   <img src="Screenshot (181).png">
 
 3. **Orders**
    - `order_id` (Primary Key)
@@ -89,14 +89,14 @@ The database schema consists of the following primary tables:
    - `product_id` (Foreign Key)
    - `quantity`
    - `price`
-   <img src="![alt text](<Screenshot (183).png>)">
+   <img src="Screenshot (183).png">
 5. **Payments**
    - `payment_id` (Primary Key)
    - `order_id` (Foreign Key)
    - `payment_date`
    - `amount`
    - `payment_method`
-   <img src="![alt text](<Screenshot (184).png>)">
+   <img src="Screenshot (184).png">
 
 ## Installation
 
